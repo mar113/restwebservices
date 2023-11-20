@@ -16,10 +16,10 @@ public class TodosFunctionImpl implements TodosFunction{
     private static List<Todo> todos = new ArrayList<>();
     private static long counter = 0;
     static {
-        todos.add(new Todo(++counter,"marwen","todoFirstItem",new Date(),false));
-        todos.add(new Todo(++counter,"marwen","todoSecondItem",new Date(),false));
-        todos.add(new Todo(++counter,"marwen","todoThirdItem",new Date(),false));
-        todos.add(new Todo(++counter,"marwen","todoFourthItem",new Date(),false));
+        todos.add(new Todo(++counter,"test1","todoFirstItem",new Date(),false));
+        todos.add(new Todo(++counter,"test2","todoSecondItem",new Date(),false));
+        todos.add(new Todo(++counter,"test3","todoThirdItem",new Date(),false));
+        todos.add(new Todo(++counter,"test4","todoFourthItem",new Date(),false));
     }
     @Autowired
     private TodoRepository todoRepository;
